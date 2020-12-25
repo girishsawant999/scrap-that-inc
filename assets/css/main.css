@@ -1,0 +1,28 @@
+.header_logo {
+  width: 75px;
+  border-radius: 10px;
+}
+.insta-color {
+  color: #f74e50;
+}
+.color-sec {
+  color: #eb467d;
+}
+.flex-direction-row-reverse {
+  flex-direction: row-reverse;
+}
+#headerDiv {
+  transition: 200ms ease-in-out;
+}
+.sticky-header {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  background: #2d2d2d99;
+}
+@media screen and (max-width: 1024px) {
+  .header_logo {
+    width: 50px;
+  }
+}
